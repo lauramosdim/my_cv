@@ -1,0 +1,238 @@
+
+/* all the body */
+
+body {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgba(0, 0, 0, 0.8);
+margin: 0%;
+}
+
+/* header styles */
+nav {
+font-size: 18px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.71);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin:  2% 5% ;   
+}
+
+.language {
+margin-right: 13px;
+}
+
+.menu {
+position: relative;
+justify-content: center;
+align-content: center;
+}
+
+.fa-bars {
+color: azure;
+justify-content: center;
+position: absolute;
+right: 15px;
+top: 17px;
+}
+
+.language-container {
+margin-right: 50px;
+font-size: 18px;
+}
+
+/* content styles */
+
+main{
+margin: 0 5%;   
+}
+
+/* about me styles */
+.about {
+display: flex;
+margin-bottom: 2%;
+}
+
+.about-text {
+font-size: 15px;
+line-height: 267.69%;
+width: 60%;
+}
+
+.tools {
+background: #ffffff;
+box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.18);
+border-radius: 25px;
+width: 150px;
+height: 35px;
+display: inline-block;
+text-align: center;
+justify-content: center;
+}
+
+.react {
+width: 80px;
+}
+
+.fa-js-square {
+color: orange;
+margin-right: 3%;
+}
+
+.fa-react {
+color: #61dbfb;
+margin-right: 4%;
+}
+
+.about-description {
+display: flex;
+justify-content: space-between;
+margin-bottom: 2%;
+}
+
+button {
+background: #6366f1;
+border-radius: 25px;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+padding: 1.3% 4%;
+height: max-content;
+letter-spacing: 0.01em;
+color: #ffffff;
+}
+
+/* projects styles */
+.projects {
+text-align: center;
+}
+
+.projects-grid {
+height: 400px;
+display: grid;
+grid-template-columns: 31.1% 31.1% 31.1%;
+column-gap: 3%;
+row-gap: 10%;
+position: relative;
+font-size: 14px;
+}
+
+a {
+text-decoration: none;
+}
+.details-link a {
+text-decoration: none;
+color: rgba(99, 102, 241, 0.5);
+}
+
+.details-link a:visited{
+text-decoration: none;
+color: rgba(99, 102, 241, 0.5);
+}
+
+.project-container {
+background: #ffffff;
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+padding: 6%;
+position: relative;
+justify-content: center;
+}
+
+.project-name,
+h3 {
+color: black;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.01em;
+}
+
+.project-description {
+margin-top: 5%;
+}
+
+#up-circles {
+position: absolute;
+margin: -3% 0 0 -4%;
+}
+
+#down-circles {
+position: absolute;
+margin: -8% 0 0 82.55%;
+z-index: -1;
+}
+
+/* skill styles */
+.skills {
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-items: center;
+text-align: center;
+
+}
+
+.skills-text {
+text-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+font-size: 14px;
+line-height: 2.5rem;
+}
+
+.react-skill,
+.fa-node {
+color: gray;
+}
+
+/* return to main styles */
+.link-container {
+margin: 5% auto;
+display: flex;
+justify-content: space-between;
+max-width: 30%;
+padding: 2%;
+}
+
+.link-about {
+color: rgba(0, 0, 0, 0.8);
+font-weight: 700;
+font-size: 1.5em;
+line-height: 21px;
+letter-spacing: 0.01em;
+margin: auto;
+}
+
+.fa-hand-point-right, .fa-hand-point-left{
+color: rgba(99, 102, 241, 0.9);
+}
+
+/* footer to main styles */
+.get-in-touch {
+font-size: 36px;
+font-weight: 700;
+color: rgba(0, 0, 0);
+
+}
+
+.fa-hand-peace {
+color: #ddcc47;
+}
+
+.footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-image: url("../images/photo_lines.svg");
+background-size: cover;
+}
+
+
+.social-network {
+display: flex;
+justify-content: space-around;
+width: 20%;
+}
